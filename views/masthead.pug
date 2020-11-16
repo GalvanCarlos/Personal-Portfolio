@@ -1,0 +1,14 @@
+header.masthead.bg-primary.text-white.text-center
+  .container.d-flex.align-items-center.flex-column
+    // Masthead Avatar Image
+    img.masthead-avatar.mb-5.img-thumbnail(src='assets/img/header.jpg' alt='')
+    // Masthead Heading
+    h1.masthead-heading.text-uppercase.mb-0 #{bio.masthead['title']}
+    // Icon Divider
+    .divider-custom.divider-light
+      .divider-custom-line
+      .divider-custom-icon
+        i.fas.fa-star
+      .divider-custom-line
+    // Masthead Subheading
+    p.masthead-subheading.font-weight-light.mb-0 #{bio.masthead['sub-title']}
